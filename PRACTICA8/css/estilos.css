@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #85D2EF;
+}
+
+.areaPrincipal{
+	background-image: url(../imagen/bolis.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	opacity: 9;
+	-webkit-background-size:  100% 100%;
+	background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+}
+
+#encabezado{
+	background: #D7EF85;
+	height: 240px;
+	text-align: center;
+	background-image: url(../imagen/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 180px 180px;
+}
+
+.piePagina{
+	width: 100%;
+	height: 60px;
+	background: #EF85BD;
+	color: black;
+	font-family: arial;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+
+}
+
+#menu{
+	height: 40px;
+	position: relative;
+	top: 200px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #EF859C;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #8294D0;
+}
+
+#datos{
+	width: 60%;
+	background-color: #BDF5A4;
+	height: 900px;
+	margin: auto;
+	opacity: 1;
+	color: blue;
+	padding: 10px;
+	font-family: arial;
+	font-size: 22px;
+	
+}
+
+.copy{
+	font-family: arial;
+	margin: 5px;
+	padding: auto;
+	text-align: right;
+	color: black;
+}
+
+
+table{
+	width: 85%;
+	border: 5px dotted blue;
+	color: #F577AD;
+	background: #A4F5F2;
+	margin: 40px;
+
+}
+
+tr td{
+	width: 25%;
+    border: 1px solid #000;
+    background-color: #CDC2F2;
+}
+
+td{
+	text-align: center;
+	font-family: 'Hubballi', cursive;
+	padding: 10px;
+	margin: 5px;
+}
+
